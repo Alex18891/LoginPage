@@ -1,0 +1,36 @@
+.Appsignup {
+    padding: 400px;
+  }
+  
+  .App-headersignup {
+    background-color: #282c34;
+    height: 650px;
+    border-radius: 1%;
+    width: 600px;
+    display: block;
+    padding: 1rem;
+  }
+  
+
+  .App-signup
+  {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    text-align: center;
+    margin-block-start: 1rem;
+  }
+  
+  #textmatch
+  {
+    font-size: 15px;
+    color: white;
+  }
+
+  #textmatch1
+  {
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    font-weight: 500;
+  }

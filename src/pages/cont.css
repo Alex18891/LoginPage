@@ -1,0 +1,103 @@
+.headermain{
+    background-color: white;
+    height: 70px;
+    border-radius: 1%;
+    display: flex;
+    padding: 20px 40px;
+    top:0;
+    left:0;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 15px 15px rgb(0 0 0 / 5%);
+}
+
+header ul li
+{
+    list-style:none;
+}
+
+header ul
+{
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+#textusername{
+    font-size: 8px;
+    color: white;
+    letter-spacing: 0.15em;
+    position: relative;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+
+header ul li a::before  {
+    content: '';
+    position: absolute;
+    bottom:-2px;
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: right;
+}
+
+header ul li a:hover::before
+{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+.divmain
+{
+    display: block;
+    float:left;
+    text-align: left; 
+}
+
+.divmainright
+{
+    display: block;
+    float:right;
+    text-align: right;
+}
+
+header ul li a{
+    font-size: 19px;
+    color: hsl(0, 0%, 15%);
+    letter-spacing: 0.15em;
+    margin-left: 1rem;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+  }
+
+  a:link { text-decoration: none; }
+
+
+  a:visited { text-decoration: none; }
+  
+  
+  a:hover { text-decoration: none; }
+  
+  
+  a:active { text-decoration: none; }
+
+  #divabout
+  {
+        display: none;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        padding: 270px;
+        min-width: 900px;
+  }
+
+  .textabout{
+    font-size: 25px;
+    color: white;
+  }

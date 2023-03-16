@@ -1,0 +1,125 @@
+.App {
+  padding: 400px;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 440px;
+  border-radius: 1%;
+  width: 800px;
+  display: block;
+  padding: 1rem;
+}
+
+.text1{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+
+.text2{
+  font-size: 15px;
+  color: white;
+}
+
+.btf{
+  font-size: 15px;
+  color:#e7e7e7;
+  background-color:#282c34;
+  border: 0px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.text5{
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.text3{
+  font-size: 15px;
+  color: rgb(65, 64, 64);
+}
+
+.Appremember
+{
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 0%;
+  width: 98%;
+}
+
+.Appremember1
+{
+  display: flex;
+  flex: 1 1 0%;
+}
+
+.Appremember2
+{
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: center;
+}
+
+.App_main
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+input[type=text]
+{
+  background-color: #202329;
+  padding: 7px 3px;
+  display: inline-block;
+  border: 4% solid #ccc;
+  border-radius: 4px;
+  width: 96%;
+  color: white;
+}
+
+input[type=password]
+{
+  background-color: #202329;
+  padding: 7px 3px;
+  display: inline-block;
+  border: 4% solid #ccc;
+  border-radius: 4px;
+  width: 96%;
+  color: white;
+}
+
+.textlogin{
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px;
+  letter-spacing: 0.15em;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 0.3rem;
+}
+.App-login
+{ 
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 1536px)
+{
+    .App {
+        max-width: 1536px;
+    }
+}
