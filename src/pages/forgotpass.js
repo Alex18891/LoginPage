@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect} from 'react';
 import {useNavigate} from 'react-router-dom';
-import './forgotpass.css';
+import './reviews.css';
 
 export default function Forgotpass() {
 

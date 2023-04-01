@@ -2,7 +2,7 @@ import  React from 'react';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 import Cont from './pages/cont';
 import Login from './pages/Login';
-import Signup from './pages/Signup';
+import Signup from './pages/signup';
 import Forgotpass from './pages/forgotpass';
 import Userdetail from './pages/userDetails';
 

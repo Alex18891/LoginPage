@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel = "stylesheet" href ="reviews.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body >
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <header class='headermain'>
+            <div class='divmain'>
+                <ul>
+                    <li>
+                        <a onclick="home()">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="aboutus()">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href='mailto:noreplyloginapp18881@gmail.com'>
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>        
+            </div>
+            <div class='divmainright1'>
+                <ul > 
+                    <li>  
+                        <button class='buttonimg' onclick="test()">
+                            <div class='divmain1'>
+                                <p id = "accountinfo" >Your Account</p>
+                                <img src="https://tagdetect.s3.eu-west-2.amazonaws.com/profile.png" alt="buttonpng" border="0" width="70px" height="65px"/>
+                            </div>     
+                        </button>
+                                
+                        <div id = "welcomeDiv">
+                            <p id = "textusername"> 
+                                
+                            </p>
+                            <button class='logout' onclick="loginpag()">
+                                Log Out
+                            </button>     
+                        </div>   
+                    </li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="App">
+            <div id="divabout">
+                <ul>
+                    <li class='textabout'>This application stores data related with films.</li>
+                </ul>  
+                <ul>
+                    <li class='textabout'>You can select whether film you want. </li>
+                </ul>
+                <ul>
+                    <li class='textabout'>It's possible to see the reviews,the comments.</li>
+                </ul>
+                <ul>
+                    <li class='textabout'>You should create account and login.</li>
+                </ul>
+                <ul>
+                    <li class='textabout'>To more information please contact us.</li>
+                </ul>    
+            </div>
+            <header id="App-header">
+                <button onclick = "historyback()" class="textloginback">&#129144;</button>
+                <div id="App-header1">      
+                    <p id='text1'></p>
+                    <img id = "imgs"  src= image hidden>
+                    <div class='App_main1' >      
+                        <p id="textshort"></p>    
+                    </div> 
+                    <div class = "App_main2">
+                        <li class="ui-item">
+                            <p id="tex5"></p>  
+                            <p id="textshort6"></p> 
+                        </li>
+                        <li class="ui-item">
+                            <p id="tex0"></p> 
+                            <p id="textshort2"></p> 
+                        </li>
+                        <li class="ui-item">
+                            <p id="tex1"></p>  
+                            <p id="textshort3"></p> 
+                        </li>
+                        <li class="ui-item">
+                            <p id="tex2"></p> 
+                            <div class="App_main3">
+                                <p id="textshort1"></p> 
+                                <div class='App_maindire' >       
+                                    <span id="e1" class="fa fa-star" ></span>
+                                    <span id ="e2" class="fa fa-star"></span>
+                                    <span id ="e3" class="fa fa-star"></span>
+                                    <span id ="e4" class="fa fa-star"></span>
+                                    <span id ="e5" class="fa fa-star"></span>
+                                    <span id ="e6" class="fa fa-star"></span>
+                                    <span id ="e7" class="fa fa-star"></span>
+                                    <span id ="e8" class="fa fa-star"></span>
+                                    <span id ="e9" class="fa fa-star"></span>
+                                    <span id ="e10" class="fa fa-star"></span>
+                                </div>        
+                            </div>        
+                        </li> 
+                        <li class="ui-item">
+                            <p id="tex4"></p>  
+                            <p id="textshort5"></p> 
+                        </li>
+                        <li class="ui-item">
+                            <p id="tex3"></p>  
+                            <p id="textshort4"></p> 
+                        </li>     
+             
+                    </div>        
+                </div>
+            </header>   
+           
+        </div>    
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>IPCA <span>Developer</span></h3>
+                <p class="footer-links">
+                    <a onclick="home()">Home</a>
+                    |
+                    <a onclick="aboutus()">About</a>
+                    |
+                    <a href='mailto:noreplyloginapp18881@gmail.com'>Contact</a>
+                    
+                </p>
+                <p class="footer-company-name">Copyright 2021 <strong>IPCA Developer</strong>
+                All rights reserved</p>
+            </div>
+            <div class="footer-center">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Alexandre Ramos</span></p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+351 935643952</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="#">noreplyloginapp18881@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    Social Media
+                </p>
+                <div class="footer-icons">
+                    <a href="https://github.com/Alex18891">
+                        <img width="85px" height="65px"  style="display: inline-block;" src="https://tagdetect.s3.eu-west-2.amazonaws.com/github.png"></img> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/alexandre-ramos-7470b7133/">
+                        <img width="85px" height="65px"  style="display: inline-block;" src="https://tagdetect.s3.eu-west-2.amazonaws.com/linkedin.png"></img>
+                    </a>
+                </div>
+            </div>
+        </footer>  
+    </div>
+  </body>
+  <script>
+    var item = localStorage.getItem('user');
+    var ti = localStorage.getItem('title');
+    console.log(JSON.parse(ti));
+    document.getElementById('text1').innerHTML = "Movie " + JSON.parse(ti).title;
+    if (JSON.parse(ti).genres != null && JSON.parse(ti).genres != "[]")
+    {
+        document.getElementById('tex4').innerHTML = "Movie Genre";
+        var gen = JSON.parse(ti).genres.split(',');
+        var genr = [];
+       
+        for(let i = 0; i<gen.length;i++ )
+        {
+            if (gen[i].includes("'name':")  )
+            {
+               
+                genr[i] = gen[i];
+            }
+        }
+        genr.splice(0, 1);
+        genr.splice(1, 1);
+        genr.splice(2, 1);
+        var genre = genr.toString().split("},");
+        var genres = genre.toString().split(" 'name':");
+        var g = genres.toString().split(",");;
+        var g1 = [];
+        for(let i = 0; i<g.length;i++ )
+        {
+            if (g[i] !== "" )
+            {
+               
+                g1[i] = g[i];
+            }
+        }
+        g1.splice(0, 1);
+        g1.splice(1, 1);
+        g1.splice(2, 1);
+        console.log(g1);
+        var newge = g1.toString().split("'").join("");
+        var newgenres = newge.toString().split("}]").join("");
+        console.log( newgenres);
+        document.getElementById('textshort5').innerHTML = newgenres;
+    }
+    
+    if (JSON.parse(ti).release_date != null)
+    {
+        document.getElementById('tex1').innerHTML = "Release Data";
+        document.getElementById('textshort3').innerHTML = JSON.parse(ti).release_date;
+    }
+
+    if (JSON.parse(ti).belongs_to_collection != null && JSON.parse(ti).belongs_to_collection != "[]")
+    {
+        document.getElementById('tex3').innerHTML = "Collection";
+        var bel = JSON.parse(ti).belongs_to_collection.split(',');
+        var belongcol = [];
+        console.log(bel);
+        for(let i = 0; i<bel.length;i++ )
+        {
+            if (bel[i].includes("'name':")  )
+            {
+               
+                belongcol[i] = bel[i];
+            }
+        }
+        var belongcollection = belongcol.toString().split(":");
+        var belongcolle = []
+        for(let i = 0; i<belongcollection.length;i++ )
+        {
+            if (belongcollection[i].includes(", 'name'") == false )
+            {
+               
+                belongcolle[i] = belongcollection[i];
+            }
+        }
+        belongcolle.splice(0, 1);
+        var newcoll = belongcolle.toString().split("'").join("") ;
+        console.log( newcoll);
+        document.getElementById('textshort4').innerHTML = newcoll;
+    }  
+    if (JSON.parse(ti).poster_path != null)
+    {
+        const linkdef = "https://image.tmdb.org/t/p/original";
+        var imageshown =  linkdef + JSON.parse(ti).poster_path ;
+        var image = imageshown.replace(" ", ""); 
+        console.log(image);
+        var i =  document.getElementById('imgs');
+        i.removeAttribute("hidden");
+        i.src = image;
+        i.style.marginLeft = "auto";
+        i.style.marginRight = "auto";
+        i.width = "300";
+        i.style.textAlign = "center";
+        i.height = "300";
+    }
+    if (JSON.parse(ti).status != null)
+    {
+        document.getElementById('tex5').innerHTML = "Status";
+        document.getElementById('textshort6').innerHTML = JSON.parse(ti).status;
+    }
+  
+    if (JSON.parse(ti).production_companies != null && JSON.parse(ti).production_companies != "[]")
+    {
+        document.getElementById('tex0').innerHTML = "Production Companies";
+        
+        var prod = JSON.parse(ti).production_companies.split(',');
+        var prodfilm = [];
+        for(let i = 0; i<prod.length;i++ )
+        {
+            if (i%2 == 0  )
+            {
+                prodfilm[i] = prod[i];
+            }
+        }
+        var produ = prodfilm.toString().split("{'name':");
+        produ.splice(0, 1);
+        var produ1 = produ.toString().split(',, ,');
+        var newprodu = produ1.toString().split("'").join("") ;
+        document.getElementById('textshort2').innerHTML = newprodu;
+    }
+    if (JSON.parse(ti).overview != null)
+    {
+        document.getElementById('textshort').innerHTML =  JSON.parse(ti).overview;
+    }
+    
+    if (JSON.parse(ti).vote_average != null)
+    {
+        var rate =  document.getElementById('textshort1');
+        document.getElementById('tex2').innerHTML = "Movie Rate";
+
+       // var weightedrank = ((v / (v+m)) * R )+ ((m / (v+m)) * C)
+        var textrate = JSON.parse(ti).vote_average;
+        rate.innerHTML = textrate + " rate";
+        if( parseFloat(textrate) > 0.5 &&  parseFloat(textrate) <= 1.5 )
+        {
+            document.getElementById('e1').style.color = "orange";
+        }
+        else if( parseFloat(textrate) > 1.5 &&  parseFloat(textrate) <= 2.5 )
+        {
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+        }
+        else if( parseFloat(textrate) > 2.5 &&  parseFloat(textrate) <= 3.5 )
+        {
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+            document.getElementById('e3').style.color = "orange";
+        }
+        else if( parseFloat(textrate) > 3.5 &&  parseFloat(textrate) <= 4.5 )
+        {
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+            document.getElementById('e3').style.color = "orange";
+            document.getElementById('e4').style.color = "orange";
+        }
+        else if( parseFloat(textrate) > 4.5 &&  parseFloat(textrate) <= 5.5 )
+        {
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+            document.getElementById('e3').style.color = "orange";
+            document.getElementById('e4').style.color = "orange";
+            document.getElementById('e5').style.color = "orange";
+        }
+        else if( parseFloat(textrate) > 5.5 &&  parseFloat(textrate) <= 6.5 )
+        {
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+            document.getElementById('e3').style.color = "orange";
+            document.getElementById('e4').style.color = "orange";
+            document.getElementById('e5').style.color = "orange";
+            document.getElementById('e6').style.color = "orange";
+        }
+        else if( parseFloat(textrate) > 6.5 &&  parseFloat(textrate) <= 7.5 )
+        {
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+            document.getElementById('e3').style.color = "orange";
+            document.getElementById('e4').style.color = "orange";
+            document.getElementById('e5').style.color = "orange";
+            document.getElementById('e6').style.color = "orange";
+            document.getElementById('e7').style.color = "orange";
+        }
+        else if( parseFloat(textrate) > 7.5 &&  parseFloat(textrate) <= 8.5 )
+        {
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+            document.getElementById('e3').style.color = "orange";
+            document.getElementById('e4').style.color = "orange";
+            document.getElementById('e5').style.color = "orange";
+            document.getElementById('e6').style.color = "orange";
+            document.getElementById('e7').style.color = "orange";
+            document.getElementById('e8').style.color = "orange";
+        }
+        else if( parseFloat(textrate) > 8.5 &&  parseFloat(textrate) <= 10 )
+        {
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+            document.getElementById('e3').style.color = "orange";
+            document.getElementById('e4').style.color = "orange";
+            document.getElementById('e5').style.color = "orange";
+            document.getElementById('e6').style.color = "orange";
+            document.getElementById('e7').style.color = "orange";
+            document.getElementById('e8').style.color = "orange";
+            document.getElementById('e9').style.color = "orange";
+        }
+        else 
+        {           
+          //  rate.innerHTML = "Rate 10";
+            document.getElementById('e1').style.color = "orange";
+            document.getElementById('e2').style.color = "orange";
+            document.getElementById('e3').style.color = "orange";
+            document.getElementById('e4').style.color = "orange";
+            document.getElementById('e5').style.color = "orange";
+            document.getElementById('e6').style.color = "orange";
+            document.getElementById('e7').style.color = "orange";
+            document.getElementById('e8').style.color = "orange";
+            document.getElementById('e9').style.color = "orange";
+            document.getElementById('e10').style.color = "orange";
+        }
+    }
+
+    function test()
+    {
+        var a = document.getElementById('welcomeDiv');
+        if (a.style.display == "none")
+        {
+            a.style.display = "block";
+            document.querySelector('#textusername').innerHTML = "Username: " + item;     
+        }
+        else{
+            a.style.display = "none";
+        } 
+    }
+
+    function historyback()
+    {
+        window.location.href = "userDetails";
+    }
+    
+    function aboutus()
+    {
+        document.getElementById('divabout').style.display = "block";
+        document.getElementById('App-header1').style.display = "none";
+        document.getElementById('App-header').style.display = "none";
+    }
+    function home()
+    {
+        document.getElementById('divabout').style.display = "none";
+        document.getElementById('App-header1').style.display = "flex";
+        document.getElementById('App-header').style.display = "block";
+    }
+
+    function loginpag() 
+    {
+        localStorage.clear();
+        window.location.href = "/";
+    }
+  </script>
+</html>
