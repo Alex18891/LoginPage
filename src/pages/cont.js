@@ -93,35 +93,76 @@ export default function Cont()
                     <a href='mailto:noreplyloginapp18881@gmail.com'> Contact</a>
                     
                 </p>
-                <p className="footer-company-name">Copyright 2021 <strong>IPCA Developer</strong>
+                <p className="footer-company-name">Copyright 2021 <strong>IPCA Developer </strong>
                 All rights reserved</p>
             </div>
             <div className="footer-center">
-                <div>
-                    <i className="fa fa-map-marker"></i>
+                <div className='divtext'> 
                     <p><span>Alexandre Ramos</span></p>
                 </div>
-                <div>
-                    <i className="fa fa-phone"></i>
-                    <p>+351 935643952</p>
+                <div className='divtext'>
+                    <p><span>Esdras Teixeira</span></p>
                 </div>
-                <div>
-                    <i className="fa fa-envelope"></i>
+                <div className='divtext'>
                     <p><a href="#">noreplyloginapp18881@gmail.com</a></p>
                 </div>
             </div>
             <div className="footer-right">
-                <p className="footer-company-about">
-                   Social Media
-                </p>
-                <div className="footer-icons">
-                    <a href="https://github.com/Alex18891">
-                        <img width="85px" height="65px" style={{display: "inline-block"}} src="https://tagdetect.s3.eu-west-2.amazonaws.com/github.png"></img>
-                        
-                    </a>
-                    <a href="https://www.linkedin.com/in/alexandre-ramos-7470b7133/">
-                        <img width="85px" height="65px" style={{display: "inline-block"}} src="https://tagdetect.s3.eu-west-2.amazonaws.com/linkedin.png"></img>
-                    </a>
+                <div className='fosterdiv'>  
+                    <div>
+                        <p className="footer-company-about">
+                            Alexandre Contacts
+                        </p>
+                        <nav>
+                        <div className="footer-icons">
+                            <ul className='social-networks'>
+                                <li>
+                                    <a href="https://github.com/Alex18891">
+                                        <img width="25px" height="25px"  src="https://tagdetect.s3.eu-west-2.amazonaws.com/iconmonstr-github-1-240.png"></img> 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/alexandre-ramos-7470b7133/">
+                                        <img width="25px" height="25px"  src="https://tagdetect.s3.eu-west-2.amazonaws.com/iconmonstr-linkedin-5-240.png"></img> 
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/351935643952">
+                                        <img  width="25px" height="25px" src="https://tagdetect.s3.eu-west-2.amazonaws.com/iconmonstr-whatsapp-1-240.png"></img>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        </nav>
+                    </div>
+                    <div>   
+                    <p className="footer-company-about">
+                        Esdras Contacts
+                    </p>
+                    <nav>
+                    <div className="footer-icons">
+                        <ul className='social-networks'>
+                            <li>
+                                <a href="https://github.com/ETFF2612">
+                                    <img width="25px" height="25px"  src="https://tagdetect.s3.eu-west-2.amazonaws.com/iconmonstr-github-1-240.png"></img> 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/esdras-falc%C3%A3o-697351214/">
+                                    <img width="25px" height="25px"  src="https://tagdetect.s3.eu-west-2.amazonaws.com/iconmonstr-linkedin-5-240.png"></img> 
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/351967687915">
+                                    <img  width="25px" height="25px" src="https://tagdetect.s3.eu-west-2.amazonaws.com/iconmonstr-whatsapp-1-240.png"></img>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    </nav>
+                    </div>
                 </div>
             </div>
         </footer>  
